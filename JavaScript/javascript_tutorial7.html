@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title> select a border size </title>
+        <script type = "text/javascript" src = "boarder.js" > </script>
+        <script>
+            number = window.prompt("Please select a size for table border\n 3(3 pixel border)\n 5(5 pixel border)\n 7(7 pixel border)\n 9(9 pixel border)");
+        </script>
+
+
+
+    </head>
+    <body onload="chooseBorder(number)">
+        <table id="mytable">
+         <thead>
+            <tr>
+                <th colspan = "4">Student Details</th>
+            </tr>
+            <tr>
+               <th>Name</th>
+               <th>ID</th>
+               <th>Age</th>
+               <th>DOB</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>David</td>
+               <td>001</td>
+               <td>21</td>
+               <td>04/07/2002</td>
+            </tr>
+            <tr>
+               <td>John</td>
+               <td>002</td>
+               <td>20</td>
+               <td>08/06/2003</td>
+            </tr>
+            <tr>
+               <td>Alex</td>
+               <td>003</td>
+               <td>22</td>
+               <td>08/02/2001</td>
+            </tr>
+         </tbody>
+      </table>
+    </body>
+</html>

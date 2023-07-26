@@ -1,0 +1,27 @@
+<html>
+    <body>
+
+<form>
+  Select a number:
+  <br>
+  <select id="mySelect" size="5">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+      <option>5</option>
+  </select>
+</form>
+<br>
+
+<button onclick="myFunction()">Remove selected fruit</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("mySelect");
+  x.remove(x.selectedIndex);
+}
+</script>
+
+</body>
+</html>
