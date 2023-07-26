@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title> Registration Form </title>
+    </head>
+    <body>
+    <h1> Registration Form </h1>
+    <form name="r" method="post" action="submission.php">
+        <table>
+            <tr>
+            <td><label for="FN">First Name</label></td>
+            <td> <input type="text" id="FN" name="firstname" required></td></tr>
+            
+            <tr>
+            <td><label for="LN">Last Name</label></td>
+            <td> <input type="text" id="LN" name="lastname" required></td></tr>
+            
+            <tr>
+            <td><label for="MN">Mobile Number</label></td>
+            <td> <input type="text" id="MN" name="mobilenumber" required></td></tr>
+            
+            <tr>
+            <td> <label for="Gender">Gender </label></td> 
+            <td> <input type="radio" id="m" name="gender" value="male"> Male </td>
+            <td> <input type="radio" id="f" name="gender" value="female"> Female</td></tr>
+            
+            <tr>
+            <td><label for="Email">Email</label></td>
+            <td> <input type="text" id="em" name="email" required></td></tr>
+            
+            <tr>
+            <td><label for="FavoriteMusic">Favorite Music: </label></td>
+            <td> <input type="checkbox" id="pop" name="favoritemusic" value="pop"> Pop</td>
+            <td> <input type="checkbox" id="rock" name="favoritemusic" value="rock">Rock</td>
+            <td> <input type="checkbox" id="other" name="favoritemusic" value="other">Other</td></tr>
+            
+            <tr>
+            <td><label for="additionaldetails">Additional details</label></td>
+                <td> <textarea id="additionaldetails" name="additionaldetails" rows="4" cols="15"></textarea></td></tr>
+            
+            <tr>
+            <td> <input type="checkbox" id="tandc" name="TermsandConditions" required><label for="termsandconditions">I agree to the terms and conditions</label></td></tr></table>
+        <br>
+       <input type="Submit"  value="submit">
+        <input type="reset" value="reset">
+     </form>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title> Registration Form </title>
+    </head>
+    <body>
+    <h1> Car Registration Form </h1>
+    <form name="r" method="post" action="submission.php">
+        <table>
+            <tr>
+            <td><label for="ON">Owner Name</label></td>
+            <td> <input type="text" id="on" name="ownername" placeholder="Owner Name" required></td></tr>
+            
+            <tr>
+            <td><label for="Email">Email</label></td>
+            <td> <input type="text" id="em" name="email" placeholder="Email"required></td></tr>
+            
+            <tr>
+            <td><label for="Tel">Phone</label></td>
+            <td> <input type="text" id="ph" name="Phone" placeholder="Phone number"required></td></tr>
+            
+            <tr>
+        <td> Country </td> 
+        <td>
+        <select name="country">
+            <option value="Sri Lanka"> Sri Lanka</option>
+            <option value="Europe"> Europe</option>
+            <option value="Japan"> Japan</option>
+            <option value="other"> Other</option>
+            </select>
+        </td>
+            </tr> 
+            
+            <tr>
+            <td><label for="CM">Car Model</label></td>
+            <td> <input type="text" id="cm" name="carmodel" required></td></tr>
+            
+            <tr>
+        <td> Manufacture Year </td> 
+        <td>
+        <select name="my">
+            <option value="2023"> 2023</option>
+            <option value="2022"> 2022</option>
+            <option value="2021"> 2021</option>
+            <option value="others"> Others</option>
+            </select>
+        </td>
+            </tr> 
+            
+            <tr>
+            <td> <label for="Transmission">Transmission </label></td> 
+            <td> <input type="radio" id="m" name="transmission" value="manual"> Manual </td>
+            <td> <input type="radio" id="a" name="transmission" value="auto"> Auto</td></tr>
+            
+            <tr>
+            <td><label for="others">Others</label></td>
+                <td> <textarea id="oth" name="Others" rows="4" cols="15"></textarea></td></tr>
+            
+            <tr>
+            <td> <input type="checkbox" id="tandc" name="TermsandConditions" required><label for="termsandconditions">I agree to the conditions and terms</label></td></tr></table>
+        <br>
+       <input type="Submit"  value="submit">
+        <input type="reset" value="reset">
+     </form>
+    </body>
+</html>
