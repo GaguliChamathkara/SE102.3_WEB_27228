@@ -1,0 +1,19 @@
+<html>
+<head></head>
+<body>
+    <h2> Confirm the Redirect</h2>
+    <button id="GoogleButton" onclick="CRedirect();">Google</button>
+    <script> 
+    function CRedirect()
+        {
+        var confirmation= confirm("Do you want to visit the Google page");
+            if(confirmation)
+                {
+                    window.location.href="https://www.google.com/";
+                }
+            else
+                {
+                    alert("You decide to stay.");
+                }
+        }</script>
+    </body></html>

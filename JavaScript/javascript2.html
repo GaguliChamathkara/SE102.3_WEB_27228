@@ -1,0 +1,42 @@
+<html>
+<head>
+    </head>
+    <body>
+    <h2>Enter a number between 1 to 7....</h2>
+    <script>
+        function getDay()
+        {
+            var userInput=prompt("Enter a number between 1 to 7.");
+            var date;
+            switch(userInput)
+                {
+                    case '1':
+                        date="Monday";
+                        break;
+                    case '2':
+                        date="Tuesday";
+                        break;
+                    case '3':
+                        date="Wednesday";
+                        break;
+                    case '4':
+                        date="Thursday";
+                        break;
+                    case '5':
+                        date="Friday";
+                        break;
+                    case '6':
+                        date="Saturday";
+                        break;
+                    case '7':
+                        date="Sunday";
+                        break;
+                    default:
+                        date="This is an invalid input. Please enter a number between 1 to 7.";
+                        break;
+                }
+            alert("Today is: "+date);
+        }
+        getDay();
+        </script></body>
+</html>
